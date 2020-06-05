@@ -33,7 +33,7 @@ cd DRF-RESTAPI-server-with-auth
 ```
 
 ## Install required libraries.
-Make sure activate virtual environment before install libraries if you want.
+Make sure activate Python virtual environment before install libraries if you want.
 Here's example using venv.
 ```bash
 python3 -m venv env
@@ -66,16 +66,17 @@ python manage.py runserver
 ```
 api endpoint is available at localhost:8000/api/v1/
 
-See localhost:8000/docs/ to check and test available api
+See localhost:8000/docs/ to check and test available api endpoints.
+You can use JWT token on 'Token' menu button on left-bottom of the docs page.
 
 Make sure access /api/v1/auth/jwt/ to get token and set it to header before access API.
-You can see example HTTP requests on test.sh
+See example HTTP requests on 'test.sh'.
 
-Also, admin page on /admin is useful to manage users and schedules
+Also, admin page on /admin is useful to manage users and schedules.
 
 # Note
  
-tested Environment:
+Tested environment:
  - python 3.8.2
  - Manjaro Linux 20.0 x86_64
 
