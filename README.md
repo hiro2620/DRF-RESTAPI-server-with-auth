@@ -1,6 +1,7 @@
 # DRF-RESTAPI-server-with-authentication
 
-A simple REST API server for multiple user To-Do list with JWT authentication. Created with Django Rest Framework.
+A simple REST API server for multiple user To-Do list with JWT authentication. Created with Django Rest Framework. 
+It's good to create your own front app in the way you like with this backend server.
  
 # Features
 - multiuser authentication system
@@ -24,9 +25,22 @@ A simple REST API server for multiple user To-Do list with JWT authentication. C
 Environments under venv is tested.
  
 # Installation
- 
-Install required libraries.
- 
+
+## Clone repo
+```bash
+git clone https://github.com/hiro2620/DRF-RESTAPI-server-with-auth.git
+cd DRF-RESTAPI-server-with-auth
+```
+
+## Install required libraries.
+Make sure activate virtual environment before install libraries if you want.
+Here's example using venv.
+```bash
+python3 -m venv env
+. env/bin/activate
+```
+
+Then, install required libraries.
 ```bash
 pip install -r requirements.txt
 ```
@@ -73,8 +87,5 @@ tested Environment:
 # License
  
 "DRF-RESTAPI-server-with-auth" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-It's good to create front app in the way you like.
-Enjoy create your own to-do apps!
 
 Thank you!
